@@ -1,1 +1,131 @@
+/* Lesson 4 */
 
+/* Завдання №1. */
+
+.lesson-four-task-one :hover {
+  background: yellow;
+  color: red;
+}
+
+/* Завдання №2. */
+
+.link:hover + .title {
+  background: green;
+}
+
+/* Завдання №3. */
+
+#lesson-four-task-three :visited {
+  color: yellow;
+}
+
+/* Завдання №4. */
+
+#sidebar :link {
+  color: red;
+}
+
+/* Завдання №5. */
+
+.lesson-four-task-five .btn:active {
+  background: blue;
+}
+
+/* Завдання №6. */
+
+.lesson-four-task-six .btn:focus {
+    background-color: orange;
+    color: orange;
+}
+
+/* Завдання №7. */
+
+:target {
+    color: white;
+    background: green;
+}
+
+/* Завдання №8. */
+
+#checkbox:checked ~ #target {
+    color: white;
+    background: blue;
+}
+
+/* Завдання №9. */
+
+.lesson-four-task-nine p:lang(uk) {
+    color: blue;
+}
+
+/* Завдання №10. */
+
+.lesson-four-task-ten *:enabled {
+    color: red;
+    background: yellow;
+}
+
+/* Завдання №11. */
+
+.lesson-four-task-eleven input:disabled {
+    background: yellow;
+}
+
+/* Завдання №12. */
+
+.lesson-four-task-twelve input:read-write {
+    background: yellow;
+}
+
+/* Завдання №13. */
+
+.lesson-four-task-thirteen input:read-only {
+    background: yellow;
+}
+
+/* Завдання №14. */
+
+.lesson-four-task-fourteen input:valid {
+    background: green;
+}
+.lesson-four-task-fourteen input:invalid {
+    background: red;
+}
+
+/* Завдання №15. */
+
+.lesson-four-task-fifteen *[optional]:optional {
+    background: red;
+}
+
+
+/* Завдання №16. */
+
+.lesson-four-task-sixteen input:out-of-range {
+    color: red;
+}
+
+/* Завдання №17. */
+
+.lesson-four-task-seventeen input :in-range {
+    color: red;
+}
+
+/* Завдання №18. */
+
+.lesson-four-task-eighteen input:placeholder-shown {
+    background: red;
+} 
+
+/* Завдання №19. */
+
+.lesson-four-task-nineteen .btn-group :focus-within {
+    color: white;
+    background: yellow;
+}
+
+/* Завдання №20. */
+
+.lesson-four-task-twenty input:invalid {
+    background: red;
+}
